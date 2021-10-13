@@ -24,4 +24,3 @@ test-coverage-html:
 
 benchmark:
 	$(PYTHON) -m py.test --benchmark-columns=min,max,mean,stddev --benchmark-sort=mean $(SRC_BENCH)
-	
